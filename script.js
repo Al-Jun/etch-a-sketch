@@ -4,3 +4,4 @@ const etchBox = document.querySelector('.etch-box');
 const box = document.createElement('div');
 
 let color = colorButton.value;
+let grid = gridSlider.value;
