@@ -7,23 +7,25 @@
 </head>
 <body>
     <h1>Etch-a-Sketch!!</h1>
-    <div class="inside-container">
-        <form class="button-column">
-            <div class="grid-row">
-                <label for="grid-size">Grid Size: </label>
-                <input type="range" id="grid-size" min="256" max="10000" step="2" value="256">
-            </div>
-            <div class="color-row">
-                <label for="color-input">Color: </label>
-                <input type="color" id="color-input" value="#090909">
-            </div>
-            <div class="reset-row">
-                <input type="reset" value="Reset">
-            </div>
-        </form>
-        <div class="grid-container">
-            <div class="etch-box">
-                
+    <div class="main-container">
+        <div class="inside-container">
+            <form class="button-column">
+                <div class="grid-row">
+                    <label for="grid-size">Grid Size: </label>
+                    <input type="range" id="grid-size" min="256" max="10000" step="2" value="256">
+                </div>
+                <div class="color-row">
+                    <label for="color-input">Color: </label>
+                    <input type="color" id="color-input">
+                </div>
+                <div class="reset-row">
+                    <input type="reset" id="reset" value="Reset">
+                </div>
+            </form>
+            <div class="grid-container">
+                <div class="etch-box">
+
+                </div>
             </div>
         </div>
     </div>
