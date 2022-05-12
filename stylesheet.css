@@ -40,4 +40,5 @@ h1 {
 
 .reset-row {
     margin-top: 15px;
+    display: flex;
 }
