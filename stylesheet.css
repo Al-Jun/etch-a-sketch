@@ -48,3 +48,7 @@ h1 {
 .etch-box {
     display: grid;
 }
+
+.individual-box {
+    background-color: whitesmoke;
+}
