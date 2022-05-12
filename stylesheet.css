@@ -32,3 +32,7 @@ h1 {
     min-height: 100vh;
     min-width: inherit;
 }
+
+.grid-row, .color-row {
+    margin-top: 15px;
+}
