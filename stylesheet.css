@@ -56,3 +56,7 @@ h1 {
 #reset {
     font-weight: bold;
 }
+
+#reset:hover {
+    color: azure;
+}
