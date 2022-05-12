@@ -23,3 +23,7 @@ h1 {
     background-color: #252222;
     min-width: 250px;
 }
+
+.button-column {
+    display: flex;
+}
