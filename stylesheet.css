@@ -17,3 +17,7 @@ h1 {
     display: flex;
     font-weight: bold;
 }
+
+.inside-container {
+    color: aliceblue;
+}
