@@ -25,6 +25,7 @@ h1 {
 .inside-container {
     display: flex;
     flex: auto;
+    align-items: stretch;
     color: aliceblue;
     background-color: #252222;
     min-width: 250px;
