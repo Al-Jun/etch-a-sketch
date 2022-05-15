@@ -50,15 +50,15 @@ h1 {
     font-weight: bold;
 }
 
+#reset:hover {
+    color: azure;
+    background-color: darkgray;
+}
+
 .etch-box {
     display: grid;
 }
 
 .individual-box {
     background-color: whitesmoke;
-}
-
-#reset:hover {
-    color: azure;
-    background-color: darkgray;
 }
