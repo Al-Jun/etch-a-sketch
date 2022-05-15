@@ -55,6 +55,10 @@ h1 {
     background-color: darkgray;
 }
 
+.grid-container {
+    display: flex;
+}
+
 .etch-box {
     display: grid;
 }
