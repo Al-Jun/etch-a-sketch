@@ -10,6 +10,7 @@ let grid = gridSlider.value;
 
 gridValue.textContent = `${grid} X ${grid}`;
 gridValue.style.textAlign = 'center';
+gridRow.appendChild(gridValue);
 
 colorButton.addEventListener('change', (e) => color = e.target.value)
 gridSlider.addEventListener('change', (e) => {
