@@ -36,7 +36,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: inherit;
 }
 
 .grid-row, .color-row {
