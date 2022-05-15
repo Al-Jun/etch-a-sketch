@@ -15,5 +15,6 @@ gridRow.appendChild(gridValue);
 colorButton.addEventListener('change', (e) => color = e.target.value)
 gridSlider.addEventListener('change', (e) => {
     grid = e.target.value;
+    etchBox.replaceChildren();
     makeGrid();
 })
