@@ -28,6 +28,7 @@ h1 {
     align-items: stretch;
     color: aliceblue;
     background-color: #252222;
+    width: 100%;
 }
 
 .button-column {
