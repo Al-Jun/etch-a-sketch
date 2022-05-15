@@ -1,3 +1,14 @@
+function makeGrid () {
+    gridValue.textContent = `${grid} X ${grid}`;
+    etchBox.style.gridTemplateColumns = `repeat(${grid}, minmax(1px, 1fr))`;
+    etchBox.style.gridTemplateRows = `repeat(${grid}, minmax(1px, 1fr))`;
+    for (let i = 1; i <= (grid*grid); ++i) {
+        const box = document.createElement('div');
+        box.classList.add('individual-box');
+        etchBox.appendChild(box);
+    }
+}
+
 const colorButton = document.querySelector('#color-input');
 const gridSlider = document.querySelector('#grid-size');
 const etchBox = document.querySelector('.etch-box');
