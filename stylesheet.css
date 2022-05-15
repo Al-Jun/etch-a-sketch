@@ -45,7 +45,7 @@ h1 {
 }
 
 #reset {
-    margin-top: 15px;
+    margin-top: 30%;
     display: flex;
     justify-content: space-around;
     min-width: inherit;
