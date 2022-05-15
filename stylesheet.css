@@ -44,7 +44,7 @@ h1 {
     margin-left: 15px;
 }
 
-.reset-row {
+#reset {
     margin-top: 15px;
     display: flex;
     justify-content: space-around;
