@@ -3,6 +3,8 @@ const gridSlider = document.querySelector('#grid-size');
 const etchBox = document.querySelector('.etch-box');
 const gridRow = document.querySelector('.grid-row');
 
+const gridValue = document.createElement('div');
+
 let color = colorButton.value;
 let grid = gridSlider.value;
 
