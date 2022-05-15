@@ -8,6 +8,8 @@ const gridValue = document.createElement('div');
 let color = colorButton.value;
 let grid = gridSlider.value;
 
+gridValue.textContent = `${grid} X ${grid}`;
+
 colorButton.addEventListener('change', (e) => color = e.target.value)
 gridSlider.addEventListener('change', (e) => {
     grid = e.target.value;
