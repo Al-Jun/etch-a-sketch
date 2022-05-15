@@ -58,6 +58,7 @@ h1 {
 .grid-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .etch-box {
