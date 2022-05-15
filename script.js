@@ -29,3 +29,5 @@ gridSlider.addEventListener('change', (e) => {
     etchBox.replaceChildren();
     makeGrid();
 })
+
+makeGrid();
