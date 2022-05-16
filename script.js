@@ -19,6 +19,14 @@ function changeColor () {
                 item.style.backgroundColor = 'whitesmoke';
             }
         })
+        item.addEventListener('click', () => {
+            if (isChange) {
+                isChange = false;
+            }
+            else if (!isChange) {
+                isChange = true;
+            }
+        })
     });
 }
 
@@ -43,6 +51,7 @@ gridSlider.addEventListener('change', (e) => {
     grid = e.target.value;
     etchBox.replaceChildren();
     makeGrid();
+    changeColor();
 })
 resetButton.addEventListener('click', () => {
     grid = '20';
