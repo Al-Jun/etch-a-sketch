@@ -13,6 +13,7 @@ const colorButton = document.querySelector('#color-input');
 const gridSlider = document.querySelector('#grid-size');
 const etchBox = document.querySelector('.etch-box');
 const gridRow = document.querySelector('.grid-row');
+const resetButton = document.querySelector('#reset');
 
 const gridValue = document.createElement('div');
 
@@ -26,6 +27,11 @@ gridRow.appendChild(gridValue);
 colorButton.addEventListener('change', (e) => color = e.target.value)
 gridSlider.addEventListener('change', (e) => {
     grid = e.target.value;
+    etchBox.replaceChildren();
+    makeGrid();
+})
+resetButton.addEventListener('click', () => {
+    grid = 20;
     etchBox.replaceChildren();
     makeGrid();
 })
