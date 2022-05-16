@@ -12,11 +12,15 @@ function makeGrid () {
 function changeColor () {
     const allBox = etchBox.querySelectorAll('div');
     allBox.forEach((item) => {
+        let previousColor = item.style.backgroundColor;
         item.addEventListener('mouseenter', () =>
         item.style.backgroundColor = `${color}`);
         item.addEventListener('mouseleave', () => {
             if (!isChange) {
-                item.style.backgroundColor = 'whitesmoke';
+                item.style.backgroundColor = previousColor;
+            }
+            else if (isChange) {
+                previousColor = item.style.backgroundColor;
             }
         })
         item.addEventListener('click', () => {
