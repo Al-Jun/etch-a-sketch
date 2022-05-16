@@ -65,7 +65,7 @@ h1 {
 
 .etch-box {
     display: grid;
-    min-width: 80%;
+    min-width: 50%;
     min-height: 80%;
 }
 
