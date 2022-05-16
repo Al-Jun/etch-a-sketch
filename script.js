@@ -58,8 +58,7 @@ gridSlider.addEventListener('change', (e) => {
     changeColor();
 })
 resetButton.addEventListener('click', () => {
-    grid = '20';
-    color = '#000000';
+    gridSlider.value = grid;
     etchBox.replaceChildren();
     makeGrid();
     changeColor();
